@@ -2,6 +2,7 @@
     "name": "mern-stack",
     "version": "0.1.0",
     "private": true,
+    "homepage":"https://softwareengahmetdemir.github.io/reactupload/",
     "dependencies": {
         "@appgeist/react-select-material-ui": "^1.4.0",
         "@babel/plugin-proposal-export-default-from": "^7.12.1",
@@ -104,6 +105,9 @@
         "build3": "SET NODE_ENV=production&&webpack -p",
         "test": "react-scripts start",
         "eject": "react-scripts eject",
+        "predeploy":"npm build",
+        "deploy":"gh-pages -d build",
+
         "fix-js": "eslint-auto-fix"
     },
     "eslintConfig": {
