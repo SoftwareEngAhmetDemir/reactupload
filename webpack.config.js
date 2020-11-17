@@ -62,7 +62,7 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://185.174.28.231:5000'
+            apiUrl: 'https://serverbigfilserve.herokuapp.com/'
         })
     }
 };
